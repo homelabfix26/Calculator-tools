@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="Kalkulatory budowlane Home Lab&Fix: beton, schody, dach, krokwie, spadki, płytki, fuga, drewno, robocizna i remont.">
+  <title>Kalkulatory budowlane Home Lab&Fix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Przejdź do kalkulatorów</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/" aria-label="Home Lab&Fix Kalkulatory">
+        <svg class="brand-symbol" viewBox="0 0 64 48" aria-hidden="true"><path d="M5 25 32 5l27 20"/><path d="M13 22v20h38V22"/><path d="M23 42V29h18v13"/></svg>
+        <span class="brand-copy"><strong><span>HOME</span> LAB&amp;FIX</strong><small>KALKULATORY</small></span>
+      </a>
+      <nav id="mainNav" class="main-nav" aria-label="Nawigacja"></nav>
+      <div class="header-actions">
+        <button id="themeToggle" class="icon-btn" type="button" title="Tryb jasny/ciemny">🌙</button>
+        <button id="menuToggle" class="menu-toggle" type="button" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <nav class="mobile-bar" aria-label="Szybka nawigacja">
+    <a href="#/"><span>⌂</span>Start</a>
+    <a href="#/kategorie"><span>▦</span>Kategorie</a>
+    <button id="mobileSearch" type="button"><span>⌕</span>Szukaj</button>
+    <a href="#/ulubione"><span>★</span>Ulubione</a>
+  </nav>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div><a class="brand brand-footer" href="#/"><svg class="brand-symbol" viewBox="0 0 64 48" aria-hidden="true"><path d="M5 25 32 5l27 20"/><path d="M13 22v20h38V22"/><path d="M23 42V29h18v13"/></svg><span class="brand-copy"><strong><span>HOME</span> LAB&amp;FIX</strong><small>KALKULATORY</small></span></a><p>Praktyczne kalkulatory budowlane do szybkich obliczeń na telefonie, budowie i w warsztacie.</p></div>
+      <div><h3>Kategorie</h3><div id="footerCats" class="footer-links"></div></div>
+      <div><h3>Kontakt</h3><div class="footer-links"><a href="https://facebook.com/homelabfix" target="_blank" rel="noreferrer">Facebook Home Lab&Fix</a><a href="#/kontakt">Zadaj pytanie do obliczenia</a></div></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Home Lab&amp;Fix</span><span>Wyniki są orientacyjne. Zweryfikuj je z projektem, producentem lub specjalistą.</span></div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
